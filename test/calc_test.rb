@@ -17,7 +17,7 @@ class CalcTest < Minitest::Test
   end
 
   def test_division_mini
-    assert_equal 2, @calc.divide(4, 2)
+    assert_equal 2, @calc.divide(4, 0)
   end
 
   def test_multiply_mini
