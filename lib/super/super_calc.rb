@@ -8,11 +8,11 @@ class SuperCalculator
     @name = name
   end
 
-  def add(one, two, three)
+  def add_super(one, two, three)
     one + two + three
   end
 
-  def multiply(one, two, three)
+  def multiply_super(one, two, three)
     one * two * three
   end
 end
