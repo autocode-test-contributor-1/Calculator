@@ -9,7 +9,7 @@ class SecondCalcTest < Minitest::Test
   end
 
   def test_addition_second
-    assert_equal 9, @super_calc.add_super(2, 2, 3)
+    assert_equal 33, @super_calc.add_super(2, 2, 3)
   end
 
   def test_multiply_second
