@@ -23,5 +23,4 @@ class CalcTest < Minitest::Test
   def test_multiply_mini
     assert_equal 8, @calc.multiply(4, 2)
   end
-
 end
