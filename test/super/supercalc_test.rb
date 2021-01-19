@@ -15,4 +15,5 @@ class SuperCalcTest < Minitest::Test
   def test_multiply_super
     assert_equal 16, @super_calc.multiply_super(4, 2, 2)
   end
+
 end
